@@ -155,7 +155,12 @@
   {
     width: 1200px;
     margin: 15px auto 0 auto;
-    .contentMain{
+
+    //版心
+    .contentMain
+    {
+
+      //路径导航
       .navPath{
         font-size: 12px;
         padding:9px 15px 9px 0;
@@ -168,6 +173,183 @@
           padding:0px 5px;
         }
       }
+
+      //中间区域
+      #center{
+        margin:5px 0 15px;
+        overflow: hidden;
+
+        //左侧放大镜
+        #left{
+          width:400px;
+          float: left;
+
+          //上面的图
+          #leftTop{
+            width: 400px;
+            position: relative;
+
+            //小图框
+            #smallPic{
+              width: 400px;
+              height: 400px;
+              border:1px solid #DFDFDF ;
+              position: relative;
+              img{}
+              .mask{
+                width: 200px;
+                height: 200px;
+                background: rgba(255,255,255,.5);
+                border: 1px solid #ddd;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+            }
+
+            //大图框
+            #bigPic{
+              width: 400px;
+              height: 400px;
+              left: 420px;
+              top: 0px;
+              border: 1px solid #ddd;
+              position: absolute;
+              overflow: hidden;
+              img{
+                width: 800px;
+                height: 800px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+              }
+            }
+          }
+
+          //下面的小图
+          #leftBottom
+          {
+            width: 400px;
+            margin-top: 5px;
+            overflow: hidden;
+            a
+            {
+              float: left;
+              width: 10px;
+              height: 54px;
+              border: 1px solid #ccc;
+              background: #ebebeb;
+              &:first-child{
+                margin-right: 4px;
+              }
+              text-align: center;
+              line-height: 54px;
+            }
+            #piclist {
+              float: left;
+              width: 372px;
+              height: 56px;
+              overflow: hidden;
+              ul {
+                white-space: nowrap;
+                font-size:0px;
+                li {
+                  height: 50px;
+                  width: 50px;
+                  border: 1px solid #cccccc;
+                  padding: 2px;
+                  margin-right: 20px;
+                  display: inline-block;
+                  img {
+                    height: 50px;
+                    width: 50px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        //右侧商品详情
+        #right{
+          width: 700px;
+          float: right;
+
+          .rightTop{
+            h3{
+              font-size: 14px;
+              line-height: 21px;
+              margin-top: 15px;
+            }
+            >p{
+              color: #e12228;
+              margin-top: 15px;
+            }
+            .priceWrap{
+              margin-top: 10px;
+              line-height: 28px;
+              background: #fee9ec;
+              padding: 7px;
+
+              .priceTop{
+                overflow: hidden;
+                >span{
+                  margin-right: 15px;
+                  float: left;;
+                }
+                .price{
+                  color: #cc1122;
+                  float: left;
+                  >span{font-size: 16px; float: left;}
+                  >p{font-size: 24px; float: left;font-weight:bold }
+                  i{font-size: 12px; float: left;}
+                }
+                >p{
+                  float: right;
+                  >span{}
+                }
+              }
+              .priceBottom{
+                overflow: hidden;
+                >span{
+                  float: left;
+                  margin-right: 15px;
+                }
+                >p{
+                  width: 520px;
+                  float: left;
+                  >span{
+                    color: #999999;
+                    &:first-child{
+                      background: #c81623;
+                      padding: 3px;
+                      color: #fff;
+                    }
+                  }
+                }
+              }
+            }
+            .support{
+              margin-top: 10px;
+              line-height: 28px;
+              overflow: hidden;
+              >span{float: left; margin-right: 15px;}
+              >p{ color: #999999; float: left;}
+
+            }
+            .address{
+              border-bottom: 1px solid #ededed;
+              line-height: 28px;
+              overflow: hidden;
+              margin-top: 10px;
+              padding-bottom: 5px;
+              >span{float: left;margin-right: 15px;}
+              >p{float:left; color: #999999;}
+            }
+          }
+        }
+      }
+
     }
   }
   //内容区结束

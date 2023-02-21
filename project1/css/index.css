@@ -117,4 +117,179 @@
   font-size: 12px;
   padding: 0px 5px;
 }
+#wapper #content .contentMain #center {
+  margin: 5px 0 15px;
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #left {
+  width: 400px;
+  float: left;
+}
+#wapper #content .contentMain #center #left #leftTop {
+  width: 400px;
+  position: relative;
+}
+#wapper #content .contentMain #center #left #leftTop #smallPic {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #DFDFDF;
+  position: relative;
+}
+#wapper #content .contentMain #center #left #leftTop #smallPic .mask {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#wapper #content .contentMain #center #left #leftTop #bigPic {
+  width: 400px;
+  height: 400px;
+  left: 420px;
+  top: 0px;
+  border: 1px solid #ddd;
+  position: absolute;
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #left #leftTop #bigPic img {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#wapper #content .contentMain #center #left #leftBottom {
+  width: 400px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #left #leftBottom a {
+  float: left;
+  width: 10px;
+  height: 54px;
+  border: 1px solid #ccc;
+  background: #ebebeb;
+  text-align: center;
+  line-height: 54px;
+}
+#wapper #content .contentMain #center #left #leftBottom a:first-child {
+  margin-right: 4px;
+}
+#wapper #content .contentMain #center #left #leftBottom #piclist {
+  float: left;
+  width: 372px;
+  height: 56px;
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #left #leftBottom #piclist ul {
+  white-space: nowrap;
+  font-size: 0px;
+}
+#wapper #content .contentMain #center #left #leftBottom #piclist ul li {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #cccccc;
+  padding: 2px;
+  margin-right: 20px;
+  display: inline-block;
+}
+#wapper #content .contentMain #center #left #leftBottom #piclist ul li img {
+  height: 50px;
+  width: 50px;
+}
+#wapper #content .contentMain #center #right {
+  width: 700px;
+  float: right;
+}
+#wapper #content .contentMain #center #right .rightTop h3 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+#wapper #content .contentMain #center #right .rightTop > p {
+  color: #e12228;
+  margin-top: 15px;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap {
+  margin-top: 10px;
+  line-height: 28px;
+  background: #fee9ec;
+  padding: 7px;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop {
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop > span {
+  margin-right: 15px;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop .price {
+  color: #cc1122;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop .price > span {
+  font-size: 16px;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop .price > p {
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop .price i {
+  font-size: 12px;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceTop > p {
+  float: right;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceBottom {
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceBottom > span {
+  float: left;
+  margin-right: 15px;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceBottom > p {
+  width: 520px;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceBottom > p > span {
+  color: #999999;
+}
+#wapper #content .contentMain #center #right .rightTop .priceWrap .priceBottom > p > span:first-child {
+  background: #c81623;
+  padding: 3px;
+  color: #fff;
+}
+#wapper #content .contentMain #center #right .rightTop .support {
+  margin-top: 10px;
+  line-height: 28px;
+  overflow: hidden;
+}
+#wapper #content .contentMain #center #right .rightTop .support > span {
+  float: left;
+  margin-right: 15px;
+}
+#wapper #content .contentMain #center #right .rightTop .support > p {
+  color: #999999;
+  float: left;
+}
+#wapper #content .contentMain #center #right .rightTop .address {
+  border-bottom: 1px solid #ededed;
+  line-height: 28px;
+  overflow: hidden;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+#wapper #content .contentMain #center #right .rightTop .address > span {
+  float: left;
+  margin-right: 15px;
+}
+#wapper #content .contentMain #center #right .rightTop .address > p {
+  float: left;
+  color: #999999;
+}
 /*# sourceMappingURL=index.css.map */
