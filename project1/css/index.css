@@ -1,0 +1,120 @@
+#wapper #header .headTop {
+  background: #eaeaea;
+  height: 30px;
+}
+#wapper #header .headTop .headTopMain {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+  line-height: 30px;
+  overflow: hidden;
+}
+#wapper #header .headTop .headTopMain .left {
+  float: left;
+}
+#wapper #header .headTop .headTopMain .left h5 {
+  float: left;
+}
+#wapper #header .headTop .headTopMain .left p {
+  float: left;
+}
+#wapper #header .headTop .headTopMain .left p a:first-child {
+  border-right: 1px solid #b3aeae;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+#wapper #header .headTop .headTopMain .right {
+  float: right;
+}
+#wapper #header .headTop .headTopMain .right nav {
+  font-size: 0px;
+}
+#wapper #header .headTop .headTopMain .right nav a {
+  border-right: 1px solid #b3aeae;
+  margin-right: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+#wapper #header .headTop .headTopMain .right nav a:last-child {
+  margin-right: 0px;
+  padding-right: 0px;
+  border: none;
+}
+#wapper #header .headBottom .headBottomMain {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wapper #header .headBottom .headBottomMain .logo {
+  float: left;
+}
+#wapper #header .headBottom .headBottomMain .logo a img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+#wapper #header .headBottom .headBottomMain .search {
+  float: right;
+  margin-top: 39.5px;
+}
+#wapper #header .headBottom .headBottomMain .search input:first-child {
+  float: left;
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0px 4px;
+  border: 3px solid #ea4a36;
+  color: blue;
+}
+#wapper #header .headBottom .headBottomMain .search input:last-child {
+  width: 68px;
+  height: 32px;
+  background: #ea4a36;
+  color: #fff;
+  border: none;
+}
+#wapper #header .headBottom .headBottomMain .search input::-webkit-input-placeholder {
+  color: yellowgreen;
+}
+#wapper #navWrap {
+  border-bottom: 2px solid #e1251b;
+}
+#wapper #navWrap .navWrapMain {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wapper #navWrap .navWrapMain a {
+  margin: 0px 22px;
+  font-size: 16px;
+  color: #333333;
+  float: left;
+  text-align: center;
+  line-height: 50px;
+}
+#wapper #navWrap .navWrapMain a:first-child {
+  width: 210px;
+  height: 50px;
+  background: #e1251b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+#wapper #content {
+  width: 1200px;
+  margin: 15px auto 0 auto;
+}
+#wapper #content .contentMain .navPath {
+  font-size: 12px;
+  padding: 9px 15px 9px 0;
+  font-size: 0px;
+}
+#wapper #content .contentMain .navPath a {
+  font-size: 12px;
+}
+#wapper #content .contentMain .navPath i {
+  font-size: 12px;
+  padding: 0px 5px;
+}
+/*# sourceMappingURL=index.css.map */
